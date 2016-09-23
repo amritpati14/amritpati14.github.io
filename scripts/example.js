@@ -118,21 +118,21 @@ $(document).ready(function() {
     if ($(".delete").length < 2) $(".delete").hide();
   });
   
-  $("#cancel-logo").click(function(){
-    $("#logo").removeClass('edit');
-  });
-  $("#delete-logo").click(function(){
-    $("#logo").remove();
-  });
-  $("#change-logo").click(function(){
-    $("#logo").addClass('edit');
-    $("#imageloc").val($("#image").attr('src'));
-    $("#image").select();
-  });
-  $("#save-logo").click(function(){
-    $("#image").attr('src',$("#imageloc").val());
-    $("#logo").removeClass('edit');
-  });
+// $("#cancel-logo").click(function(){
+//   $("#logo").removeClass('edit');
+//  });
+// $("#delete-logo").click(function(){
+//    $("#logo").remove();
+//  });
+// $("#change-logo").click(function(){
+//    $("#logo").addClass('edit');
+//    $("#imageloc").val($("#image").attr('src'));
+//    $("#image").select();
+//  });
+//  $("#save-logo").click(function(){
+//    $("#image").attr('src',$("#imageloc").val());
+//    $("#logo").removeClass('edit');
+//  });
   
   $("#date").val(print_today());
   

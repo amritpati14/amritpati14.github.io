@@ -10,12 +10,12 @@ return false;
 }
 else if (username == "admin1" && password == "admin1") {
   alert ("Login successfully");
-  window.location = "invoice.html"; // Redirecting to other page.
+  window.location = "invoice2.html"; // Redirecting to other page.
   return false;
 }
 else if (username == "admin2" && password == "admin2") {
   alert ("Login successfully");
-  window.location = "invoice2.html"; // Redirecting to other page.
+  window.location = "invoice.html"; // Redirecting to other page.
   return false;
 }
 else{

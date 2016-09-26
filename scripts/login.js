@@ -5,12 +5,12 @@ var username = document.getElementById("username").value;
 var password = document.getElementById("password").value;
 if ( username == "admin" && password == "admin"){
 alert ("Login successfully");
-window.location = "invoice.html"; // Redirecting to other page.
+window.location = "invoice2.html"; // Redirecting to other page.
 return false;
 }
 else if (username == "admin1" && password == "admin1") {
   alert ("Login successfully");
-  window.location = "invoice2.html"; // Redirecting to other page.
+  window.location = "invoice.html"; // Redirecting to other page.
   return false;
 }
 else if (username == "admin2" && password == "admin2") {
